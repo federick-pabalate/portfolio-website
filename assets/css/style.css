@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F8F3D9;
+}
+.sidebar img {
+    position: fixed;
+    width: 40%;
+}
+
+.content, .nav {
+    position: relative;
+    margin-left: 40%;
+    width: 60%;
+    height: auto;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details button {
+    margin-top: 5%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 30%;
+}
+
+.nav {
+    margin-top: 15%;
+    text-align: center;
+}
+
+nav a {
+    margin-left: 15%;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a, button {
+    background-color: #EBE5C2;
+}
